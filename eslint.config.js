@@ -25,6 +25,14 @@ export default tseslint.config(
         },
     },
     {
-        ignores: ['dist/', 'node_modules/', '*.config.js', '.vite/', 'coverage/', 'public/', '.papi/'],
+        ignores: [
+            'dist/',
+            'node_modules/',
+            '*.config.js',
+            '.vite/',
+            'coverage/',
+            'public/',
+            '.papi/',
+        ],
     },
 );
